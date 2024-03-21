@@ -1,0 +1,15 @@
+{
+  "name": "js-interview-questions",
+  "version": "1.0.0",
+  "description": "Some exercises in JavaScript for use during technical interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w src/*.test.js --require setup.js"
+  },
+  "author": "Peter Kedemo",
+  "license": "",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
